@@ -1,0 +1,58 @@
+# questions.kqb
+
+Is_your_temperature_higher_than_39($ans)
+    Is your temperature higher than 39 ?
+    ---
+    $ans = yn
+
+Is_the_duration_of_the_fever_more_than_3_days($ans)
+    Is the duration of the fever more than 3 days?
+    ---
+    $ans = yn
+
+
+
+Do_you_have_a_cough($ans)
+    Do you have a cough will?
+    ---
+    $ans = yn
+
+Do_you_have_a_dyspnea($ans)
+    Do you have a dyspnea?
+    ---
+    $ans = yn
+
+
+
+
+
+Do_you_have_a_common_cold($ans)
+    Do you have a common cold?
+    ---
+    $ans = yn
+
+
+
+
+
+
+Do_you_have_a_haemoptysis($ans)
+    Do you have a haemoptysis?
+    ---
+    $ans = yn
+
+Do_you_have_a_night_sweat($ans)
+    Do you have a night sweat?
+    ---
+    $ans = yn
+
+
+
+
+
+Do_you_have_a_sore_throat($ans)
+    Do you have a sore throat?
+    ---
+    $ans = yn
+
+

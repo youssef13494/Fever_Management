@@ -1,0 +1,18 @@
+# questions.kqb
+
+
+Do_you_fear_the_bathroom_a_lot($ans)
+    Do you fear the bathroom a lot?
+    ---
+    $ans=yn
+
+Do_you_have_discharge_with_urine($ans)
+    Do you have secretions with urine?
+    ---
+    $ans=yn
+
+Do_you_have_blood_in_your_urine($ans)
+    Do you have blood in your urine?
+    ---
+    $ans=yn
+

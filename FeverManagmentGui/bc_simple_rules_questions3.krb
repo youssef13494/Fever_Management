@@ -1,0 +1,8 @@
+# bc_simple_rules.krb
+
+Do_you_have_an_Urinary_tract_infection
+    use what_to_bring(you_have_an_Urinary_tract_infection)
+    when
+        questions3.Do_you_fear_the_bathroom_a_lot(True)
+        questions3.Do_you_have_discharge_with_urine(True)
+        questions3.Do_you_have_blood_in_your_urine(True)

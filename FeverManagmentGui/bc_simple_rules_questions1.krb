@@ -1,0 +1,29 @@
+# bc_simple_rules.krb
+
+Do_you_have_a_pneumonai
+    use what_to_bring(you_have_a_Pneumonai)
+    when
+        $coughYes = True
+        $dyspneaYes = True
+        check $coughYes == True
+        check $dyspneaYes == True
+
+Do_you_have_a_viral
+    use what_to_bring(you_have_a_viral)
+    when
+        $commonColdYes = True
+        check $commonColdYes == True
+
+Do_you_have_a_Tuberculosis
+    use what_to_bring(you_have_a_Tuberculosis)
+    when
+        $haemoptysisYes = True
+        $nightSweatYes = True
+        check $haemoptysisYes == True
+        check $nightSweatYes == True
+
+Do_you_have_a_tonsilitis
+    use what_to_bring(you_have_a_tonsilitis)
+    when
+        $soreThroatYes = True
+        check $soreThroatYes == True

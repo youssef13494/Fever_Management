@@ -1,0 +1,42 @@
+# bc_simple_rules.krb
+
+Do_you_have_a_pneumonai
+    use what_to_bring(you_have_a_Pneumonai)
+    when
+        questions1.Is_your_temperature_higher_than_39(True)
+        questions1.Is_the_duration_of_the_fever_more_than_3_days(True)
+        questions1.Do_you_have_a_cough(True)
+        questions1.Do_you_have_a_dyspnea(True)
+
+
+
+
+Do_you_have_a_viral
+    use what_to_bring(you_have_a_viral)
+    when
+        questions1.Is_your_temperature_higher_than_39(True)
+        questions1.Is_the_duration_of_the_fever_more_than_3_days(True)
+        questions1.Do_you_have_a_common_cold(True)
+
+
+
+
+Do_you_have_a_Tuberculosis
+    use what_to_bring(you_have_a_Tuberculosis)
+    when
+        questions1.Is_your_temperature_higher_than_39(True)
+        questions1.Is_the_duration_of_the_fever_more_than_3_days(True)
+        questions1.Do_you_have_a_haemoptysis(True)
+        questions1.Do_you_have_a_night_sweat(True)
+
+
+
+
+
+Do_you_have_a_tonsilitis
+    use what_to_bring(you_have_a_tonsilitis)
+    when
+        questions1.Is_your_temperature_higher_than_39(True)
+        questions1.Is_the_duration_of_the_fever_more_than_3_days(True)
+        questions1.Do_you_have_a_sore_throat(True)
+

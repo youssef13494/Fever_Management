@@ -1,0 +1,8 @@
+# bc_simple_rules.krb
+
+Do_you_have_an_enteric_fever
+    use what_to_bring(you_have_an_enteric_fever)
+    when
+        questions2.Do_you_eat_from_outside(True)
+        questions2.Do_you_have_a_diarrhea(True)
+        questions2.Do_you_suffer_from_vomitting(True)

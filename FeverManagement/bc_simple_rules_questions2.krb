@@ -1,0 +1,10 @@
+# bc_simple_rules.krb
+
+Do_you_have_an_enteric_fever
+    use what_to_bring(you_have_an_enteric_fever)
+    when
+        questions2.Is_your_temperature_higher_than_39(True)
+        questions2.Is_the_duration_of_the_fever_more_than_3_days(True)
+        questions2.Do_you_eat_from_outside(True)
+        questions2.Do_you_have_a_diarrhea(True)
+        questions2.Do_you_suffer_from_vomitting(True)

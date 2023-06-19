@@ -1,0 +1,102 @@
+
+Is_your_temperature_higher_than_39($ans)
+    Is your temperature higher than 39 ?
+    ---
+    $ans = yn
+
+Is_the_duration_of_the_fever_more_than_3_days($ans)
+    Is the duration of the fever more than 3 days?
+    ---
+    $ans = yn
+
+
+
+Do_you_have_a_pain_in_the_neck($ans)
+    Do you have a pain in the neck?
+    ---
+    $ans=yn
+
+Is_your_neck_tight($ans)
+    Is your neck tight?
+    ---
+    $ans=yn
+
+Do_you_suffer_from_vomitting($ans)
+    Do you suffer from vomitting?
+    ---
+    $ans=yn
+
+
+Do_you_suffer_from_severe_headaches($ans)
+    Do you suffer from severe headaches?
+    ---
+    $ans=yn
+
+Do_you_suffer_from_High_fever($ans)
+    Do you suffer from High fever?
+    ---
+    $ans=yn
+
+
+
+
+Do_you_suffer_from_jaundice($ans)
+    Do you suffer from jaundice?
+    ---
+    $ans=yn
+
+Do_you_suffer_from_naseua($ans)
+    Does the patient suffer from naseua?
+    ---
+    $ans=yn
+
+Do_you_suffer_from_Pain_in_the_right_part_of_the_abdomen($ans)
+    Does the patient suffer from Pain in the right part of the abdomen?
+    ---
+    $ans=yn
+
+
+
+
+
+
+Do_you_lose_weight($ans)
+    Do you lose weight?
+    ---
+    $ans=yn
+
+
+
+Are_you_tired($ans)
+    Are you tired?
+    ---
+    $ans=yn
+
+
+Do_you_have_a_night_sweat($ans)
+    Do you have a night sweat?
+    ---
+    $ans = yn
+
+
+Do_you_suffer_from_lymph_denopathy($ans)
+    Do you suffer from lymph denopathy?
+    ---
+    $ans=yn
+
+
+
+Do_you_have_discharge_from_ear($ans)
+    Do you have discharge from ear?
+    ---
+    $ans = yn
+
+Do_you_have_ear_swelling($ans)
+    Do you have ear swelling?
+    ---
+    $ans = yn
+
+Is_your_hearing_decreased($ans)
+    Is your hearing decreased?
+    ---
+    $ans = yn

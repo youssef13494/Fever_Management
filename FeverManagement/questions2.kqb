@@ -1,0 +1,28 @@
+# questions.kqb
+
+Is_your_temperature_higher_than_39($ans)
+    Is your temperature higher than 39 ?
+    ---
+    $ans = yn
+
+Is_the_duration_of_the_fever_more_than_3_days($ans)
+    Is the duration of the fever more than 3 days?
+    ---
+    $ans = yn
+
+
+
+Do_you_eat_from_outside($ans)
+    Do you eat from out side?
+    ---
+    $ans=yn
+
+Do_you_have_a_diarrhea($ans)
+    Do you have a Diarrhea?
+    ---
+    $ans=yn
+
+Do_you_suffer_from_vomitting($ans)
+    Do you suffer from vomitting?
+    ---
+    $ans=yn

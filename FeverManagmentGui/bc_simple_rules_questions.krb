@@ -1,0 +1,99 @@
+# bc_simple_rules.krb
+
+Do_you_have_a_pneumonai
+    use what_to_bring(you_have_a_Pneumonai)
+    when
+        questions.Do_you_have_a_dyspnea(True)
+        questions.Do_you_have_a_cough(True)
+
+
+
+Do_you_have_a_viral
+    use what_to_bring(you_have_a_viral)
+    when
+        questions.Do_you_have_a_common_cold(True)
+
+
+
+Do_you_have_a_Tuberculosis
+    use what_to_bring(you_have_a_Tuberculosis)
+    when
+        questions.Do_you_have_a_haemoptysis(True)
+        questions.Do_you_have_a_night_sweat(True)
+
+
+
+
+Do_you_have_a_tonsilitis
+    use what_to_bring(you_have_a_tonsilitis)
+    when
+        questions.Do_you_have_a_sore_throat(True)
+
+
+
+
+
+Do_you_have_an_enteric_fever
+    use what_to_bring(you_have_an_enteric_fever)
+    when
+        questions.Do_you_eat_from_outside(True)
+        questions.Do_you_have_a_diarrhea(True)
+        questions.Do_you_suffer_from_vomitting(True)
+
+
+
+
+Do_you_have_an_Urinary_tract_infection
+    use what_to_bring(you_have_an_Urinary_tract_infection)
+    when
+        questions.Do_you_fear_the_bathroom_a_lot(True)
+        questions.Do_you_have_discharge_with_urine(True)
+        questions.Do_you_have_blood_in_your_urine(True)
+
+
+
+
+Do_you_have_a_meningitis
+    use what_to_bring(you_have_a_meningitisn)
+    when
+        questions.Do_you_have_a_pain_in_the_neck(True)
+        questions.Is_your_neck_tight(True)
+        questions.Do_you_suffer_from_vomitting(True)
+        questions.Do_you_suffer_from_severe_headaches(True)
+        questions.Do_you_suffer_from_High_fever(True)
+
+
+
+
+Do_you_have_a_hepatisis
+    use what_to_bring(you_have_a_hepatisis)
+    when
+        questions.Do_you_suffer_from_jaundice(True)
+        questions.Do_you_suffer_from_naseua(True)
+        questions.Do_you_suffer_from_Pain_in_the_right_part_of_the_abdomen(True)
+
+
+Do_you_have_a_malignancy
+    use what_to_bring(you_have_a_malignancy)
+    when
+        questions.Do_you_lose_weight(True)
+        questions.Are_you_tired(True)
+        questions.Are_you_tired(True)
+        questions.Do_you_suffer_from_lymph_denopathy(True)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

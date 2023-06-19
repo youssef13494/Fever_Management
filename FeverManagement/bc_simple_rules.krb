@@ -1,0 +1,29 @@
+# bc_simple_rules.krb
+
+treatment_manage_fever
+    use fever_protection(True)
+    when
+        facts.HighFever39(True)
+        facts.DuarationMoreThanThreeDays(True)
+
+no_treatment_manage_fever
+    use no_fever_protection(True)
+    when
+        facts.HighFever_less39(True)
+        facts.DuarationMoreThanThreeDays(True)
+
+
+
+what_to_do_to_manage_fever
+    use what_to_bring(you_have_a_Pneumonai_and_must_take_an_ibobrofen_and_a_paracetamol_and_drink_plenty_of_fluid)
+    when
+        fever_protection($protection)
+        facts.Cough(True)
+        facts.Dyspnea(True)
+
+what_to_do_to_manage_fever_no
+    use what_to_bring(you_have_a_Pneumonai_and_drink_plenty_of_fluid_and_make_fomentation)
+    when
+        no_fever_protection($protection)
+        facts.Cough(True)
+        facts.Dyspnea(True)
